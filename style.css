@@ -1,0 +1,45 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.section-one {
+
+    background-image: url(images/top-banner.png);
+}
+
+.section-two {
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+}
+
+.section-display {
+    display: flex;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.name {
+    color: red;
+}
+
+.width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.width img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
