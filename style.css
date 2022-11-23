@@ -13,6 +13,10 @@ body {
     background-position: right;
 }
 
+.section-three {
+    height: 80%;
+}
+
 .section-display {
     display: flex;
     background-repeat: no-repeat;
@@ -23,6 +27,14 @@ h1 {
     font-size: 50px;
 }
 
+.h3-color {
+    color: orange;
+}
+
+p {
+    color: dimgray;
+}
+
 .name {
     color: red;
 }
@@ -31,7 +43,7 @@ h1 {
     width: 40%;
     padding-left: 2%;
 
-    float: left;
+
     margin-left: 5%;
 }
 
@@ -45,4 +57,39 @@ h1 {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.experienc-area {
+    width: 40%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 10px 50px gray;
+}
+
+#experience-border {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, green);
+    border-image-slice: 1;
+}
+
+#experience-border-left {
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+
+.experienc-area-background {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+footer {
+    text-align: center;
 }
